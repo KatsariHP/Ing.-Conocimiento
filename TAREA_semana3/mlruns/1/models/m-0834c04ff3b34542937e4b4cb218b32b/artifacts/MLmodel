@@ -1,0 +1,23 @@
+artifact_path: file:c:/Users/Legion/Documents/5to semestre/ING. del conocimiento/TAREA_semana3/mlruns/1/models/m-0834c04ff3b34542937e4b4cb218b32b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-0834c04ff3b34542937e4b4cb218b32b
+model_size_bytes: 3255997
+model_uuid: m-0834c04ff3b34542937e4b4cb218b32b
+prompts: null
+run_id: b069e0e5f93d4751bebf2d8e7d315fa6
+utc_time_created: '2026-09-18 06:35:13.528888'
